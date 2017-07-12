@@ -27,7 +27,7 @@ namespace TestApp.Controllers
         public IActionResult Zoo()
         {
             Animal test = new Animal();
-            return View();
+            return View(test);
         }
 
         public IActionResult Error()
